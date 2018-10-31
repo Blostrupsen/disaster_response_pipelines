@@ -8,7 +8,7 @@ Using machine learning techniques, (Random Forest Classifier) we are able to pre
 
 1. Data Processing
     Assessing and cleaning the data, so that it can be utilized by machine learning algorithms.
-    See details in the ETL Notebook.
+    See details in the [ETL Notebook](../blob/master/ETL%20Pipeline%20Preparation.ipynb).
     
 2. Model training
     Data was passed through a pipeline and a prediction model is made.
