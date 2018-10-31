@@ -15,7 +15,7 @@ Using machine learning techniques, (Random Forest Classifier) we are able to pre
     See details in the [ML Notebook](https://github.com/Blostrupsen/disaster_response_pipelines/blob/master/ML%20Pipeline%20Preparation.ipynb).
 
 3. Prediction and Visualization
-    Making a web app for prediction and visualization, where user may try some emergency messages and see prediction.
+    Making a [web app](https://view6914b2f4-3001.udacity-student-workspaces.com/) for prediction and visualization, where user may try some emergency messages and see visualization of distribution of genres and categories.
         
 ### Instructions:
 #### Run the following commands in the project's root directory to set up database and model:
