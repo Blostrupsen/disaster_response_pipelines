@@ -6,32 +6,34 @@ Using machine learning techniques, (Random Forest Classifier) we are able to pre
 
 ### The process was carried out as follows:
 
-    1. Data Processing
+1. Data Processing
+    Assessing and cleaning the data, so that it can be utilized by machine learning algorithms.
+    See details in the ETL Notebook.
     
-        Assessing and cleaning the data, so that it can be utilized by machine learning algorithms.
-        See details in the ETL Notebook.
+2. Model training
+    Data was passed through a pipeline and a prediction model is made.
+    See details in the ML Notebook.
 
-    2. Model training
-    
-        Data was passed through a pipeline and a prediction model is made.
-        See details in the ML Notebook.
-
-    3. Prediction and Visualization
-    
-        Making a web app for prediction and visualization, where user may try some emergency messages and see prediction.
+3. Prediction and Visualization
+    Making a web app for prediction and visualization, where user may try some emergency messages and see prediction.
         
 ### Instructions:
-1. Run the following commands in the project's root directory to set up your database and model.
+#### Run the following commands in the project's root directory to set up database and model:
 
-    - To run ETL pipeline that cleans data and stores in database
-        `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
-    - To run ML pipeline that trains classifier and saves
-        `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+To run ETL pipeline that cleans data and stores in database:
 
-2. Run the following command in the app's directory to run your web app.
-    `python run.py`
+`python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
 
-3. Go to http://0.0.0.0:3001/
+To run ML pipeline that trains classifier and saves it:
+
+`python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+
+#### Run the following command in the app's directory to run your web app:
+
+`python run.py`
+
+#### Go to http://0.0.0.0:3001/
+
 
 ### File structure of project:
 
