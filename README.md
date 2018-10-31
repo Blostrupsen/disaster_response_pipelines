@@ -38,18 +38,30 @@ To run ML pipeline that trains classifier and saves it:
 ### File structure of project:
 
 1.  ../app - folder for web app
+
     ../app/run.py - flask web app
+    
     ../templates - .html templates
+    
 
 2.  ../data - folder for files for the datasets
+
     ../data/disaster_categories.csv - raw file containing the categories
+    
     ../data/disaster_messages.csv - raw file containing the messages
+    
     ../data/process_data.py
+    
     ../data/disaster_response.db - database created when running `python process_data.py`
+    
     ../data/DisasterResponse.db - database for the clean data
+    
 
 3.  ../models - folder for the classifier model and pickle file
+
     ../models/train_classifier.py - model training script
+    
     ../models/classifier.pkl - saved model when running `python train_classifier.py`
+    
 
 4.  README.md
