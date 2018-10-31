@@ -33,21 +33,21 @@ Using machine learning techniques, (Random Forest Classifier) we are able to pre
 
 3. Go to http://0.0.0.0:3001/
 
-### Here is the file structure of the project:
-- app
-| - template
-| |- master.html  # main page of web app
-| |- go.html  # classification result page of web app
-|- run.py  # Flask file that runs app
+### File structure of project:
 
-- data
-|- disaster_categories.csv  # data to process 
-|- disaster_messages.csv  # data to process
-|- process_data.py
-|- InsertDatabaseName.db   # database to save clean data to
+1.  ../app - folder for web app
+    ../app/run.py - flask web app
+    ../templates - .html templates
 
-- models
-|- train_classifier.py
-|- classifier.pkl  # saved model 
+2.  ../data - folder for files for the datasets
+    ../data/disaster_categories.csv - raw file containing the categories
+    ../data/disaster_messages.csv - raw file containing the messages
+    ../data/process_data.py
+    ../data/disaster_response.db - database created when running `python process_data.py`
+    ../data/DisasterResponse.db - database for the clean data
 
-- README.md
+3.  ../models - folder for the classifier model and pickle file
+    ../models/train_classifier.py - model training script
+    ../models/classifier.pkl - saved model when running `python train_classifier.py`
+
+4.  README.md
