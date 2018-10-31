@@ -1,6 +1,6 @@
 # Disaster Response Pipeline Project
 
-Figure Eight https://www.figure-eight.com/ has provided data related to messages, categorized into different classifications, that have been received during emergencies/disasters.
+[Figure Eight](https://www.figure-eight.com/) has provided data related to messages, categorized into different classifications, that have been received during emergencies/disasters.
 This project try to recognize these categories in order to cater for quicker responses to the emergency messages.
 Using machine learning techniques, (Random Forest Classifier) we are able to predict the category with an accuracy of around XX %.
 
