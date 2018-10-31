@@ -65,3 +65,5 @@ To run ML pipeline that trains classifier and saves it:
     
 
 4.  README.md
+
+The app may be investigated here: https://view6914b2f4-3001.udacity-student-workspaces.com/
